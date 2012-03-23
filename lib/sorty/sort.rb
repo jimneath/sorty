@@ -18,7 +18,7 @@ module Sorty
           query = scoped
         end
 
-        query.order("#{column} #{direction}")
+        query.reorder("#{column} #{direction}")
       end
     end
   end
